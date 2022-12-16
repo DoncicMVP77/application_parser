@@ -1,0 +1,19 @@
+root - WARNING - This will get logged to a file
+root - ERROR - [
+  {
+    "loc": [
+      "population"
+    ],
+    "msg": "value is not a valid integer",
+    "type": "type_error.integer"
+  }
+]
+Traceback (most recent call last):
+  File "D:\parser_application\parser\test_pydantic.py", line 23, in <module>
+    city = City.parse_raw(input_json)
+  File "pydantic\main.py", line 549, in pydantic.main.BaseModel.parse_raw
+  File "pydantic\main.py", line 526, in pydantic.main.BaseModel.parse_obj
+  File "pydantic\main.py", line 342, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for City
+population
+  value is not a valid integer (type=type_error.integer)
