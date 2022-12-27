@@ -1,0 +1,184 @@
+{
+ "objects": [
+  {
+   "id": "spb",
+   "name": "Санкт-Петербург",
+   "url": "//petrovich.ru/"
+  },
+  {
+   "id": "msk",
+   "name": "Москва",
+   "url": "//moscow.petrovich.ru/"
+  },
+  {
+   "id": "arkh",
+   "name": "Архангельск",
+   "url": "//arkhangelsk.petrovich.ru/"
+  },
+  {
+   "id": "astrh",
+   "name": "Астрахань",
+   "url": "//astrakhan.petrovich.ru/"
+  },
+  {
+   "id": "nvr",
+   "name": "Великий Новгород",
+   "url": "//novgorod.petrovich.ru/"
+  },
+  {
+   "id": "vld",
+   "name": "Владимир",
+   "url": "//vladimir.petrovich.ru/"
+  },
+  {
+   "id": "volzh",
+   "name": "Волжский",
+   "url": "//volzhskiy.petrovich.ru/"
+  },
+  {
+   "id": "vbg",
+   "name": "Выборг",
+   "url": "//vyborg.petrovich.ru/"
+  },
+  {
+   "id": "gtn",
+   "name": "Гатчина",
+   "url": "//gatchina.petrovich.ru/"
+  },
+  {
+   "id": "gbkn",
+   "name": "Губкин",
+   "url": "//gubkin.petrovich.ru/"
+  },
+  {
+   "id": "zhelez",
+   "name": "Железногорск",
+   "url": "//zheleznogorsk.petrovich.ru/"
+  },
+  {
+   "id": "iola",
+   "name": "Йошкар-Ола",
+   "url": "//i-ola.petrovich.ru/"
+  },
+  {
+   "id": "kzn",
+   "name": "Казань",
+   "url": "//kazan.petrovich.ru/"
+  },
+  {
+   "id": "klg",
+   "name": "Калуга",
+   "url": "//kaluga.petrovich.ru/"
+  },
+  {
+   "id": "kgs",
+   "name": "Кингисепп",
+   "url": "//kingisepp.petrovich.ru/"
+  },
+  {
+   "id": "krv",
+   "name": "Киров",
+   "url": "//kirov.petrovich.ru/"
+  },
+  {
+   "id": "krsk",
+   "name": "Курск",
+   "url": "//kursk.petrovich.ru/"
+  },
+  {
+   "id": "lipck",
+   "name": "Липецк",
+   "url": "//lipetsk.petrovich.ru/"
+  },
+  {
+   "id": "lug",
+   "name": "Луга",
+   "url": "//luga.petrovich.ru/"
+  },
+  {
+   "id": "mgnt",
+   "name": "Магнитогорск",
+   "url": "//magnitogorsk.petrovich.ru/"
+  },
+  {
+   "id": "nabchel",
+   "name": "Набережные Челны",
+   "url": "//naberezhnye-chelny.petrovich.ru/"
+  },
+  {
+   "id": "nizhvar",
+   "name": "Нижневартовск",
+   "url": "//nizhnevartovsk.petrovich.ru/"
+  },
+  {
+   "id": "nizhnov",
+   "name": "Нижний Новгород",
+   "url": "//nizhniy-novgorod.petrovich.ru/"
+  },
+  {
+   "id": "tagil",
+   "name": "Нижний Тагил",
+   "url": "//nizhniy-tagil.petrovich.ru/"
+  },
+  {
+   "id": "orl",
+   "name": "Орел",
+   "url": "//orel.petrovich.ru/"
+  },
+  {
+   "id": "pervour",
+   "name": "Первоуральск",
+   "url": "//pervouralsk.petrovich.ru/"
+  },
+  {
+   "id": "pzv",
+   "name": "Петрозаводск",
+   "url": "//petrozavodsk.petrovich.ru/"
+  },
+  {
+   "id": "pskv",
+   "name": "Псков",
+   "url": "//pskov.petrovich.ru/"
+  },
+  {
+   "id": "rzn",
+   "name": "Рязань",
+   "url": "//ryazan.petrovich.ru/"
+  },
+  {
+   "id": "oskol",
+   "name": "Старый Оскол",
+   "url": "//stary-oskol.petrovich.ru/"
+  },
+  {
+   "id": "sktv",
+   "name": "Сыктывкар",
+   "url": "//syktyvkar.petrovich.ru/"
+  },
+  {
+   "id": "tvr",
+   "name": "Тверь",
+   "url": "//tver.petrovich.ru/"
+  },
+  {
+   "id": "tbl",
+   "name": "Тобольск",
+   "url": "//tobolsk.petrovich.ru/"
+  },
+  {
+   "id": "tul",
+   "name": "Тула",
+   "url": "//tula.petrovich.ru/"
+  },
+  {
+   "id": "cheb",
+   "name": "Чебоксары",
+   "url": "//cheboksary.petrovich.ru/"
+  },
+  {
+   "id": "engl",
+   "name": "Энгельс",
+   "url": "//engels.petrovich.ru/"
+  }
+ ]
+}

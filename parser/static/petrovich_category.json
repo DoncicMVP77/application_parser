@@ -1,0 +1,3535 @@
+{
+ "categories": [
+  {
+   "category_id": 245635348,
+   "name": "Стройматериалы",
+   "categories": [
+    {
+     "category_id": 12101,
+     "name": "Стеновые и фасадные материалы",
+     "categories": [
+      {
+       "category_id": 1557,
+       "name": "Кирпич",
+       "categories": []
+      },
+      {
+       "category_id": 1573,
+       "name": "Строительные блоки",
+       "categories": []
+      },
+      {
+       "category_id": 1571,
+       "name": "Пазогребневые плиты и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 236563992,
+       "name": "Фасадные панели и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 236552306,
+       "name": "Сайдинг и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 46554423,
+       "name": "Облицовочный камень",
+       "categories": []
+      },
+      {
+       "category_id": 95761844,
+       "name": "Профнастил стеновой",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1520,
+     "name": "Кровля, водосточные системы",
+     "categories": [
+      {
+       "category_id": 12100,
+       "name": "Водосточные системы и отливы",
+       "categories": []
+      },
+      {
+       "category_id": 95761846,
+       "name": "Металлочерепица и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 1522,
+       "name": "Гибкая черепица и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 1524,
+       "name": "Ондулин и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 245805261,
+       "name": "Профнастил и лист оцинкованный",
+       "categories": []
+      },
+      {
+       "category_id": 1575,
+       "name": "Поликарбонат и козырьки",
+       "categories": []
+      },
+      {
+       "category_id": 1523,
+       "name": "Наплавляемая кровля",
+       "categories": []
+      },
+      {
+       "category_id": 1527,
+       "name": "Рубероид",
+       "categories": []
+      },
+      {
+       "category_id": 1529,
+       "name": "Шифер",
+       "categories": []
+      },
+      {
+       "category_id": 236563973,
+       "name": "Подшивка кровли",
+       "categories": []
+      },
+      {
+       "category_id": 95761845,
+       "name": "Кровельная вентиляция",
+       "categories": []
+      },
+      {
+       "category_id": 171000314,
+       "name": "Мансардные окна",
+       "categories": []
+      },
+      {
+       "category_id": 9576071,
+       "name": "Снегозадержатели и элементы безопасности",
+       "categories": []
+      },
+      {
+       "category_id": 95761849,
+       "name": "Кровельная гидроизоляция",
+       "categories": []
+      },
+      {
+       "category_id": 95761847,
+       "name": "Кровельные мембраны",
+       "categories": []
+      },
+      {
+       "category_id": 245634098,
+       "name": "Полимерные мембраны",
+       "categories": []
+      },
+      {
+       "category_id": 94934500,
+       "name": "Металлочерепица, фальц, профнастил под заказ",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1279,
+     "name": "Теплоизоляция и шумоизоляция",
+     "categories": [
+      {
+       "category_id": 34494029,
+       "name": "Теплоизоляция",
+       "categories": []
+      },
+      {
+       "category_id": 1282,
+       "name": "Шумоизоляция и виброизоляция",
+       "categories": []
+      },
+      {
+       "category_id": 1280,
+       "name": "Изоляция в инженерных системах",
+       "categories": []
+      },
+      {
+       "category_id": 1281,
+       "name": "Ветро-влагозащита и пароизоляция кровли и фасадов",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1028,
+     "name": "Материалы для сухого строительства",
+     "categories": [
+      {
+       "category_id": 816,
+       "name": "Листовые материалы",
+       "categories": []
+      },
+      {
+       "category_id": 817,
+       "name": "Профиль для гипсокартона и аксессуары",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1445,
+     "name": "Сухие строительные смеси",
+     "categories": [
+      {
+       "category_id": 17286,
+       "name": "Цементно-песчаные смеси",
+       "categories": []
+      },
+      {
+       "category_id": 12129,
+       "name": "Ровнители для пола",
+       "categories": []
+      },
+      {
+       "category_id": 1447,
+       "name": "Штукатурки",
+       "categories": []
+      },
+      {
+       "category_id": 245802329,
+       "name": "Комплектующие для штукатурных работ и выравнивания полов",
+       "categories": []
+      },
+      {
+       "category_id": 9575960,
+       "name": "Шпаклевки",
+       "categories": []
+      },
+      {
+       "category_id": 1449,
+       "name": "Кладочные и монтажные смеси",
+       "categories": []
+      },
+      {
+       "category_id": 1451,
+       "name": "Смеси для кладки печей и каминов",
+       "categories": []
+      },
+      {
+       "category_id": 1455,
+       "name": "Смеси для фасадов",
+       "categories": []
+      },
+      {
+       "category_id": 1452,
+       "name": "Клей для плитки",
+       "categories": []
+      },
+      {
+       "category_id": 1450,
+       "name": "Ремонтные составы",
+       "categories": []
+      },
+      {
+       "category_id": 1460,
+       "name": "Добавки в растворы",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 12110,
+     "name": "Цемент и сыпучие материалы",
+     "categories": [
+      {
+       "category_id": 12111,
+       "name": "Цемент",
+       "categories": []
+      },
+      {
+       "category_id": 9576105,
+       "name": "Песок",
+       "categories": []
+      },
+      {
+       "category_id": 9576107,
+       "name": "Керамзит",
+       "categories": []
+      },
+      {
+       "category_id": 9576104,
+       "name": "Мел, гипс, глина, известь",
+       "categories": []
+      },
+      {
+       "category_id": 9576106,
+       "name": "Щебень, отсев, асфальт",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1560,
+     "name": "Металлопрокат",
+     "categories": [
+      {
+       "category_id": 58079460,
+       "name": "Винтовые сваи и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 245800737,
+       "name": "Арматура и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 249149343,
+       "name": "Сетки армирующие",
+       "categories": []
+      },
+      {
+       "category_id": 12104,
+       "name": "Уголок стальной",
+       "categories": []
+      },
+      {
+       "category_id": 245800733,
+       "name": "Трубы ВГП и электросварные",
+       "categories": []
+      },
+      {
+       "category_id": 12106,
+       "name": "Трубы профильные стальные",
+       "categories": []
+      },
+      {
+       "category_id": 94777250,
+       "name": "Полоса стальная",
+       "categories": []
+      },
+      {
+       "category_id": 151139043,
+       "name": "Квадрат стальной",
+       "categories": []
+      },
+      {
+       "category_id": 12105,
+       "name": "Швеллер стальной",
+       "categories": []
+      },
+      {
+       "category_id": 12109,
+       "name": "Двутавр",
+       "categories": []
+      },
+      {
+       "category_id": 94777249,
+       "name": "Лист стальной",
+       "categories": []
+      },
+      {
+       "category_id": 16989,
+       "name": "Лист рифленый",
+       "categories": []
+      },
+      {
+       "category_id": 245699234,
+       "name": "Закладные детали",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 778,
+     "name": "Древесно-плитные материалы",
+     "categories": [
+      {
+       "category_id": 1513,
+       "name": "ДВП",
+       "categories": []
+      },
+      {
+       "category_id": 1514,
+       "name": "ДСП",
+       "categories": []
+      },
+      {
+       "category_id": 12058,
+       "name": "МДВП",
+       "categories": []
+      },
+      {
+       "category_id": 6594,
+       "name": "Мебельные щиты",
+       "categories": []
+      },
+      {
+       "category_id": 1515,
+       "name": "Плиты OSB-3",
+       "categories": []
+      },
+      {
+       "category_id": 135516988,
+       "name": "Фанера",
+       "categories": []
+      },
+      {
+       "category_id": 1516,
+       "name": "ЦСП (Цементно-стружечная плита)",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1512,
+     "name": "Пиломатериалы и отделка деревом",
+     "categories": [
+      {
+       "category_id": 95761838,
+       "name": "Доски",
+       "categories": []
+      },
+      {
+       "category_id": 1293,
+       "name": "Брус",
+       "categories": []
+      },
+      {
+       "category_id": 160888532,
+       "name": "Брусок",
+       "categories": []
+      },
+      {
+       "category_id": 21173,
+       "name": "Вагонка",
+       "categories": []
+      },
+      {
+       "category_id": 95761840,
+       "name": "Имитация бревна и бруса",
+       "categories": []
+      },
+      {
+       "category_id": 95761839,
+       "name": "Планкен",
+       "categories": []
+      },
+      {
+       "category_id": 95761841,
+       "name": "Террасная доска и декинг",
+       "categories": []
+      },
+      {
+       "category_id": 1304,
+       "name": "Погонажные изделия",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 812,
+     "name": "Железобетонные кольца и люки",
+     "categories": [
+      {
+       "category_id": 9576103,
+       "name": "Люки канализационные",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 7198,
+     "name": "Гидроизоляция",
+     "categories": [
+      {
+       "category_id": 9576113,
+       "name": "Цементная гидроизоляция",
+       "categories": []
+      },
+      {
+       "category_id": 9576115,
+       "name": "Полимерная гидроизоляция",
+       "categories": []
+      },
+      {
+       "category_id": 9576111,
+       "name": "Битумная гидроизоляция",
+       "categories": []
+      },
+      {
+       "category_id": 9576110,
+       "name": "Рулонная гидроизоляция",
+       "categories": []
+      },
+      {
+       "category_id": 9576117,
+       "name": "Ленты гидроизоляционные",
+       "categories": []
+      },
+      {
+       "category_id": 9576112,
+       "name": "Инъекционная гидроизоляция",
+       "categories": []
+      },
+      {
+       "category_id": 9576114,
+       "name": "Жидкое стекло",
+       "categories": []
+      },
+      {
+       "category_id": 9576116,
+       "name": "Аксессуары для гидроизоляции",
+       "categories": []
+      },
+      {
+       "category_id": 285395770,
+       "name": "Гидрошпонки",
+       "categories": []
+      },
+      {
+       "category_id": 245805276,
+       "name": "Профилированные мембраны",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 12112,
+     "name": "Заборы и ограждения",
+     "categories": [
+      {
+       "category_id": 239891982,
+       "name": "Ворота и калитки",
+       "categories": []
+      },
+      {
+       "category_id": 18002195,
+       "name": "Столбы для забора и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 19470,
+       "name": "Колпаки для заборных столбов",
+       "categories": []
+      },
+      {
+       "category_id": 1567,
+       "name": "Секционные заборы",
+       "categories": []
+      },
+      {
+       "category_id": 114693176,
+       "name": "Евроштакетник",
+       "categories": []
+      },
+      {
+       "category_id": 1566,
+       "name": "Сетка для забора и проволока",
+       "categories": []
+      },
+      {
+       "category_id": 9576169,
+       "name": "Сваи для забора",
+       "categories": []
+      },
+      {
+       "category_id": 95761842,
+       "name": "Профнастил для забора",
+       "categories": []
+      },
+      {
+       "category_id": 95761799,
+       "name": "Шлагбаум и автоматизация ворот",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 95761851,
+     "name": "Лестницы и комплектующие",
+     "categories": [
+      {
+       "category_id": 19220,
+       "name": "Лестницы чердачные",
+       "categories": []
+      },
+      {
+       "category_id": 1301,
+       "name": "Комплектующие к деревянным лестницам",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 9576108,
+     "name": "Строительные расходные материалы",
+     "categories": [
+      {
+       "category_id": 244169832,
+       "name": "Тенты и защитные сетки",
+       "categories": []
+      },
+      {
+       "category_id": 9576109,
+       "name": "Укрывные пленки",
+       "categories": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category_id": 1313,
+   "name": "Инструмент",
+   "categories": [
+    {
+     "category_id": 9799,
+     "name": "Ручной инструмент",
+     "categories": [
+      {
+       "category_id": 10467,
+       "name": "Измерительный инструмент",
+       "categories": []
+      },
+      {
+       "category_id": 10470,
+       "name": "Малярный инструмент",
+       "categories": []
+      },
+      {
+       "category_id": 1334,
+       "name": "Ударно-рычажный инструмент",
+       "categories": []
+      },
+      {
+       "category_id": 10473,
+       "name": "Штукатурно-отделочный инструмент",
+       "categories": []
+      },
+      {
+       "category_id": 1332,
+       "name": "Столярно-слесарный инструмент",
+       "categories": []
+      },
+      {
+       "category_id": 285395725,
+       "name": "Электротехнический инструмент",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 18978,
+     "name": "Электроинструмент",
+     "categories": [
+      {
+       "category_id": 1938912,
+       "name": "Наборы электроинструмента",
+       "categories": []
+      },
+      {
+       "category_id": 245805260,
+       "name": "Дрели и шуруповерты",
+       "categories": []
+      },
+      {
+       "category_id": 22984812,
+       "name": "Компрессорное оборудование и аксессуары",
+       "categories": []
+      },
+      {
+       "category_id": 9576054,
+       "name": "Краскопульты",
+       "categories": []
+      },
+      {
+       "category_id": 10465,
+       "name": "Лобзики",
+       "categories": []
+      },
+      {
+       "category_id": 245805263,
+       "name": "Миксеры",
+       "categories": []
+      },
+      {
+       "category_id": 12814,
+       "name": "Отбойные молотки",
+       "categories": []
+      },
+      {
+       "category_id": 12810,
+       "name": "Перфораторы",
+       "categories": []
+      },
+      {
+       "category_id": 9576045,
+       "name": "Пилы",
+       "categories": []
+      },
+      {
+       "category_id": 19325,
+       "name": "Плиткорезы электрические",
+       "categories": []
+      },
+      {
+       "category_id": 12819,
+       "name": "Пылесосы",
+       "categories": []
+      },
+      {
+       "category_id": 100131139,
+       "name": "Реноваторы",
+       "categories": []
+      },
+      {
+       "category_id": 12822,
+       "name": "Рубанки",
+       "categories": []
+      },
+      {
+       "category_id": 9576143,
+       "name": "Строительные пистолеты",
+       "categories": []
+      },
+      {
+       "category_id": 15645,
+       "name": "Точила",
+       "categories": []
+      },
+      {
+       "category_id": 12820,
+       "name": "Фены строительные",
+       "categories": []
+      },
+      {
+       "category_id": 18237,
+       "name": "Фрезеры",
+       "categories": []
+      },
+      {
+       "category_id": 19121,
+       "name": "Шлифмашины вибрационные, полировальные",
+       "categories": []
+      },
+      {
+       "category_id": 10466,
+       "name": "Шлифмашины угловые (УШМ)",
+       "categories": []
+      },
+      {
+       "category_id": 12821,
+       "name": "Штроборез (бороздодел)",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 18970,
+     "name": "Расходные материалы к электроинструменту",
+     "categories": [
+      {
+       "category_id": 19084,
+       "name": "Аккумуляторы для инструмента",
+       "categories": []
+      },
+      {
+       "category_id": 9576013,
+       "name": "Аксессуары для цепных пил",
+       "categories": []
+      },
+      {
+       "category_id": 5791,
+       "name": "Биты",
+       "categories": []
+      },
+      {
+       "category_id": 285395801,
+       "name": "Буры и зубила",
+       "categories": []
+      },
+      {
+       "category_id": 18955,
+       "name": "Венчики для строительных миксеров",
+       "categories": []
+      },
+      {
+       "category_id": 9576178,
+       "name": "Гвозди для пневмо и электропистолетов",
+       "categories": []
+      },
+      {
+       "category_id": 10445,
+       "name": "Диски алмазные",
+       "categories": []
+      },
+      {
+       "category_id": 10446,
+       "name": "Диски пильные",
+       "categories": []
+      },
+      {
+       "category_id": 18333,
+       "name": "Зенкеры",
+       "categories": []
+      },
+      {
+       "category_id": 244165284,
+       "name": "Комплектующие к пистолетам монтажным, термоклеевым",
+       "categories": []
+      },
+      {
+       "category_id": 135996596,
+       "name": "Комплектующие к пылесосам",
+       "categories": []
+      },
+      {
+       "category_id": 19075,
+       "name": "Кордщетки",
+       "categories": []
+      },
+      {
+       "category_id": 5537,
+       "name": "Коронки",
+       "categories": []
+      },
+      {
+       "category_id": 10447,
+       "name": "Круги зачистные по металлу",
+       "categories": []
+      },
+      {
+       "category_id": 10448,
+       "name": "Круги лепестковые",
+       "categories": []
+      },
+      {
+       "category_id": 245805259,
+       "name": "Круги отрезные",
+       "categories": []
+      },
+      {
+       "category_id": 10480,
+       "name": "Лента наждачная",
+       "categories": []
+      },
+      {
+       "category_id": 10439,
+       "name": "Насадки для электроинструмента",
+       "categories": []
+      },
+      {
+       "category_id": 19076,
+       "name": "Переходники, адаптеры, держатели",
+       "categories": []
+      },
+      {
+       "category_id": 19059,
+       "name": "Пилки для лобзиков",
+       "categories": []
+      },
+      {
+       "category_id": 9576021,
+       "name": "Пилки для сабельных пил",
+       "categories": []
+      },
+      {
+       "category_id": 245805262,
+       "name": "Сверла",
+       "categories": []
+      },
+      {
+       "category_id": 8154,
+       "name": "Смазки для инструмента",
+       "categories": []
+      },
+      {
+       "category_id": 19120,
+       "name": "Фрезы",
+       "categories": []
+      },
+      {
+       "category_id": 10479,
+       "name": "Шлифовальные диски",
+       "categories": []
+      },
+      {
+       "category_id": 228940159,
+       "name": "Шлифовальные листы",
+       "categories": []
+      },
+      {
+       "category_id": 19064,
+       "name": "Шлифовальные чашки",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 10477,
+     "name": "Абразивные материалы",
+     "categories": [
+      {
+       "category_id": 10478,
+       "name": "Бумага наждачная",
+       "categories": []
+      },
+      {
+       "category_id": 10481,
+       "name": "Шкурка, губки, блоки шлифовальные",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 18736,
+     "name": "Высотные конструкции",
+     "categories": [
+      {
+       "category_id": 19219,
+       "name": "Вышки-туры, леса строительные",
+       "categories": []
+      },
+      {
+       "category_id": 1402,
+       "name": "Лестницы строительные",
+       "categories": []
+      },
+      {
+       "category_id": 19221,
+       "name": "Столы малярные, помосты",
+       "categories": []
+      },
+      {
+       "category_id": 19222,
+       "name": "Стремянки",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 10536,
+     "name": "Расходные материалы, хозтовары",
+     "categories": [
+      {
+       "category_id": 1403,
+       "name": "Мешки, пакеты, коробки, стретч",
+       "categories": []
+      },
+      {
+       "category_id": 1404,
+       "name": "Скотч, лента, изолента",
+       "categories": []
+      },
+      {
+       "category_id": 19218,
+       "name": "Укрывные материалы",
+       "categories": []
+      },
+      {
+       "category_id": 244129033,
+       "name": "Строительные емкости",
+       "categories": []
+      },
+      {
+       "category_id": 216642483,
+       "name": "Автотовары",
+       "categories": []
+      },
+      {
+       "category_id": 1405,
+       "name": "Сопутствующие товары",
+       "categories": []
+      },
+      {
+       "category_id": 4117,
+       "name": "Хозяйственно-бытовые товары",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1407,
+     "name": "Спецодежда и средства защиты",
+     "categories": [
+      {
+       "category_id": 184224728,
+       "name": "Безопасность работ",
+       "categories": []
+      },
+      {
+       "category_id": 20793,
+       "name": "Защита лица, глаз, головы",
+       "categories": []
+      },
+      {
+       "category_id": 20792,
+       "name": "Защита органов дыхания",
+       "categories": []
+      },
+      {
+       "category_id": 20771,
+       "name": "Защита органов слуха",
+       "categories": []
+      },
+      {
+       "category_id": 20794,
+       "name": "Защита рук",
+       "categories": []
+      },
+      {
+       "category_id": 165830675,
+       "name": "Огнетушители",
+       "categories": []
+      },
+      {
+       "category_id": 1409,
+       "name": "Пояса, ремни, сумки",
+       "categories": []
+      },
+      {
+       "category_id": 1408,
+       "name": "Рабочая обувь, наколенники",
+       "categories": []
+      },
+      {
+       "category_id": 245805558,
+       "name": "Спецодежда",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 18980,
+     "name": "Бензоинструмент и принадлежности",
+     "categories": [
+      {
+       "category_id": 1314,
+       "name": "Бензопилы",
+       "categories": []
+      },
+      {
+       "category_id": 19012,
+       "name": "Принадлежности для бензоинструмента",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 4102,
+     "name": "Газовое и сварочное оборудование",
+     "categories": [
+      {
+       "category_id": 10460,
+       "name": "Горелки кровельные, баллоны газовые, комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 10461,
+       "name": "Лампы паяльные и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 220307654,
+       "name": "Паяльники и аксессуары",
+       "categories": []
+      },
+      {
+       "category_id": 1329,
+       "name": "Сварочное оборудование",
+       "categories": []
+      },
+      {
+       "category_id": 19028,
+       "name": "Сварочные принадлежности",
+       "categories": []
+      },
+      {
+       "category_id": 19020,
+       "name": "Электроды сварочные",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 19003,
+     "name": "Измерительные инструменты",
+     "categories": [
+      {
+       "category_id": 19044,
+       "name": "Дальномеры лазерные",
+       "categories": []
+      },
+      {
+       "category_id": 10464,
+       "name": "Нивелиры",
+       "categories": []
+      },
+      {
+       "category_id": 19132,
+       "name": "Пирометры и детекторы",
+       "categories": []
+      },
+      {
+       "category_id": 19138,
+       "name": "Угломеры и уклономеры",
+       "categories": []
+      },
+      {
+       "category_id": 19043,
+       "name": "Штативы, рейки, держатели",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 18932,
+     "name": "Силовая, строительная техника и комплектующие",
+     "categories": [
+      {
+       "category_id": 1315,
+       "name": "Бетономешалки",
+       "categories": []
+      },
+      {
+       "category_id": 18668,
+       "name": "Виброплиты и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 18716,
+       "name": "Генераторы",
+       "categories": []
+      },
+      {
+       "category_id": 18708,
+       "name": "Станки и оборудование",
+       "categories": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category_id": 1384,
+   "name": "Электрика",
+   "categories": [
+    {
+     "category_id": 10168,
+     "name": "Розетки и выключатели",
+     "categories": [
+      {
+       "category_id": 10169,
+       "name": "Монтажные коробки и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 18604,
+       "name": "Розетки и выключатели для кабель-каналов",
+       "categories": []
+      },
+      {
+       "category_id": 211000180,
+       "name": "Розетки и выключатели открытой установки",
+       "categories": []
+      },
+      {
+       "category_id": 211000182,
+       "name": "Розетки и выключатели скрытой установки",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 10172,
+     "name": "Автоматы, щиты и счетчики",
+     "categories": [
+      {
+       "category_id": 18597,
+       "name": "Автоматические выключатели",
+       "categories": []
+      },
+      {
+       "category_id": 18598,
+       "name": "Дифавтоматы и УЗО",
+       "categories": []
+      },
+      {
+       "category_id": 18599,
+       "name": "Контакторы и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 228702799,
+       "name": "Ограничители напряжения",
+       "categories": []
+      },
+      {
+       "category_id": 175966934,
+       "name": "Распределительные щиты",
+       "categories": []
+      },
+      {
+       "category_id": 228892156,
+       "name": "Реле и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 228679008,
+       "name": "Рубильники и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 15626,
+       "name": "Стабилизаторы и ИБП",
+       "categories": []
+      },
+      {
+       "category_id": 10175,
+       "name": "Счетчики электроэнергии",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 10075,
+     "name": "Всё для электромонтажа",
+     "categories": [
+      {
+       "category_id": 285395729,
+       "name": "Клеммы",
+       "categories": []
+      },
+      {
+       "category_id": 285395730,
+       "name": "Комплектующие для щитов и коробок",
+       "categories": []
+      },
+      {
+       "category_id": 285395731,
+       "name": "Крепление для кабеля",
+       "categories": []
+      },
+      {
+       "category_id": 285395732,
+       "name": "Соединители для кабеля",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 12118,
+     "name": "Освещение",
+     "categories": [
+      {
+       "category_id": 10159,
+       "name": "Лампы",
+       "categories": []
+      },
+      {
+       "category_id": 285395753,
+       "name": "Освещение для дома",
+       "categories": []
+      },
+      {
+       "category_id": 269261779,
+       "name": "Трековые системы",
+       "categories": []
+      },
+      {
+       "category_id": 18293,
+       "name": "Светодиодная лента и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 285395757,
+       "name": "Технические светильники",
+       "categories": []
+      },
+      {
+       "category_id": 285395758,
+       "name": "Уличные светильники",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 210381754,
+     "name": "Системы наблюдения и оповещения",
+     "categories": [
+      {
+       "category_id": 93987323,
+       "name": "Дверные звонки и домофоны",
+       "categories": []
+      },
+      {
+       "category_id": 198905108,
+       "name": "Системы видеонаблюдения",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 10170,
+     "name": "Удлинители, сетевые разъемы и комплектующие",
+     "categories": [
+      {
+       "category_id": 285395735,
+       "name": "Вилки и розетки для подключения электроплит",
+       "categories": []
+      },
+      {
+       "category_id": 285395747,
+       "name": "Комплектующие для бытовых удлинителей",
+       "categories": []
+      },
+      {
+       "category_id": 7134,
+       "name": "Комплектующие для силовых удлинителей",
+       "categories": []
+      },
+      {
+       "category_id": 285395748,
+       "name": "Разветвители для розеток",
+       "categories": []
+      },
+      {
+       "category_id": 285395749,
+       "name": "Сетевые фильтры",
+       "categories": []
+      },
+      {
+       "category_id": 285395750,
+       "name": "Удлинители бытовые",
+       "categories": []
+      },
+      {
+       "category_id": 285395751,
+       "name": "Удлинители силовые",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 210381631,
+     "name": "Фонари и элементы питания",
+     "categories": [
+      {
+       "category_id": 10165,
+       "name": "Фонари",
+       "categories": []
+      },
+      {
+       "category_id": 93987322,
+       "name": "Элементы питания",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 10176,
+     "name": "Кабели и провода",
+     "categories": [
+      {
+       "category_id": 18596,
+       "name": "Акустический кабель",
+       "categories": []
+      },
+      {
+       "category_id": 197196796,
+       "name": "Витая пара и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 197196758,
+       "name": "Коаксиальный кабель и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 1389,
+       "name": "Силовой кабель, провод, аксессуары",
+       "categories": []
+      },
+      {
+       "category_id": 10076,
+       "name": "СИП кабель и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 191127191,
+       "name": "Телефонный кабель и комплектующие",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 10079,
+     "name": "Системы прокладки кабеля",
+     "categories": [
+      {
+       "category_id": 1387,
+       "name": "Кабель-каналы и аксессуары",
+       "categories": []
+      },
+      {
+       "category_id": 15677,
+       "name": "Кабельные лотки и аксессуары",
+       "categories": []
+      },
+      {
+       "category_id": 1396,
+       "name": "Трубы для кабеля и комплектующие",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 285395788,
+     "name": "Телекоммуникация",
+     "categories": []
+    },
+    {
+     "category_id": 8619,
+     "name": "Умный дом",
+     "categories": []
+    }
+   ]
+  },
+  {
+   "category_id": 12088,
+   "name": "Инженерные системы",
+   "categories": [
+    {
+     "category_id": 7185,
+     "name": "Водоснабжение",
+     "categories": [
+      {
+       "category_id": 4148,
+       "name": "Полипропиленовые трубы, фитинги и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 7189,
+       "name": "Трубы ПНД и фитинги",
+       "categories": []
+      },
+      {
+       "category_id": 7190,
+       "name": "Металлопластиковые трубы, фитинги и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 20184227,
+       "name": "Медные трубы и фитинги",
+       "categories": []
+      },
+      {
+       "category_id": 19564,
+       "name": "Стальные трубы и фитинги",
+       "categories": []
+      },
+      {
+       "category_id": 245806662,
+       "name": "Трубы PEX/PERT, аксиальные системы",
+       "categories": []
+      },
+      {
+       "category_id": 161356054,
+       "name": "Резьбовые фитинги",
+       "categories": []
+      },
+      {
+       "category_id": 19666,
+       "name": "Арматура запорная и регулирующая",
+       "categories": []
+      },
+      {
+       "category_id": 95761889,
+       "name": "Контрольно-измерительные приборы для воды",
+       "categories": []
+      },
+      {
+       "category_id": 12073,
+       "name": "Фильтры для очистки воды и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 95761890,
+       "name": "Подводка и шланги для бытовой техники",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 7195,
+     "name": "Газоснабжение",
+     "categories": [
+      {
+       "category_id": 11121,
+       "name": "Газовые счетчики",
+       "categories": []
+      },
+      {
+       "category_id": 7206,
+       "name": "Газовые шаровые краны",
+       "categories": []
+      },
+      {
+       "category_id": 5787,
+       "name": "Газовые шланги",
+       "categories": []
+      },
+      {
+       "category_id": 95761906,
+       "name": "Трубы водогазопроводные",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 7164,
+     "name": "Отопление, вентиляция и климат",
+     "categories": [
+      {
+       "category_id": 173255442,
+       "name": "Радиаторы отопления и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 9576196,
+       "name": "Климатические системы",
+       "categories": []
+      },
+      {
+       "category_id": 173265736,
+       "name": "Котлы и расширительные баки",
+       "categories": []
+      },
+      {
+       "category_id": 775,
+       "name": "Вентиляция",
+       "categories": []
+      },
+      {
+       "category_id": 13113,
+       "name": "Печное отопление, камины",
+       "categories": []
+      },
+      {
+       "category_id": 9576210,
+       "name": "Полотенцесушители",
+       "categories": []
+      },
+      {
+       "category_id": 95761909,
+       "name": "Водонагревательное оборудование",
+       "categories": []
+      },
+      {
+       "category_id": 245806663,
+       "name": "Теплый пол",
+       "categories": []
+      },
+      {
+       "category_id": 9576227,
+       "name": "Коллекторы для систем отопления",
+       "categories": []
+      },
+      {
+       "category_id": 19682,
+       "name": "Арматура и автоматика для систем отопления",
+       "categories": []
+      },
+      {
+       "category_id": 13158,
+       "name": "Теплоноситель",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 95761862,
+     "name": "Водоотведение и канализация",
+     "categories": [
+      {
+       "category_id": 10544,
+       "name": "Дренажные системы",
+       "categories": []
+      },
+      {
+       "category_id": 7180,
+       "name": "Канализация",
+       "categories": []
+      },
+      {
+       "category_id": 95761863,
+       "name": "Водосточные системы",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 7207,
+     "name": "Насосное оборудование и аксессуары",
+     "categories": [
+      {
+       "category_id": 19603,
+       "name": "Гидроаккумуляторы и комплектующие для насосного оборудования",
+       "categories": []
+      },
+      {
+       "category_id": 13282,
+       "name": "Канализационные насосные установки",
+       "categories": []
+      },
+      {
+       "category_id": 26634712,
+       "name": "Мотопомпы",
+       "categories": []
+      },
+      {
+       "category_id": 12343,
+       "name": "Насосные станции",
+       "categories": []
+      },
+      {
+       "category_id": 7167,
+       "name": "Насосы для повышения давления, циркуляционные",
+       "categories": []
+      },
+      {
+       "category_id": 12342,
+       "name": "Насосы для чистой воды",
+       "categories": []
+      },
+      {
+       "category_id": 7166,
+       "name": "Насосы дренажные, фекальные",
+       "categories": []
+      },
+      {
+       "category_id": 18778,
+       "name": "Рукава и шланги",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 146275934,
+     "name": "Изоляция для труб",
+     "categories": [
+      {
+       "category_id": 146275826,
+       "name": "Звукоизоляция для труб",
+       "categories": []
+      },
+      {
+       "category_id": 95761907,
+       "name": "Клей и скобы для трубной изоляции",
+       "categories": []
+      },
+      {
+       "category_id": 1288,
+       "name": "Теплоизоляция для труб",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 95761811,
+     "name": "Трубы водоснабжения и отопления",
+     "categories": [
+      {
+       "category_id": 95761814,
+       "name": "Металлопластиковые трубы",
+       "categories": []
+      },
+      {
+       "category_id": 95761816,
+       "name": "Полипропиленовые трубы",
+       "categories": []
+      },
+      {
+       "category_id": 95761815,
+       "name": "Стальные трубы",
+       "categories": []
+      },
+      {
+       "category_id": 95761812,
+       "name": "Трубы PEX/PERT",
+       "categories": []
+      },
+      {
+       "category_id": 95761817,
+       "name": "Трубы ПНД",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 95761801,
+     "name": "Фитинги для водоснабжения и отопления",
+     "categories": [
+      {
+       "category_id": 95761809,
+       "name": "Латунные резьбовые фитинги",
+       "categories": []
+      },
+      {
+       "category_id": 95761805,
+       "name": "Обжимные фитинги",
+       "categories": []
+      },
+      {
+       "category_id": 95761807,
+       "name": "Опрессовочные фитинги (пресс-фитинги)",
+       "categories": []
+      },
+      {
+       "category_id": 95761810,
+       "name": "Оцинкованные резьбовые фитинги",
+       "categories": []
+      },
+      {
+       "category_id": 95761802,
+       "name": "Фитинги для аксиальных систем",
+       "categories": []
+      },
+      {
+       "category_id": 95761803,
+       "name": "Фитинги для медных труб",
+       "categories": []
+      },
+      {
+       "category_id": 95761808,
+       "name": "Фитинги для ПНД труб",
+       "categories": []
+      },
+      {
+       "category_id": 95761804,
+       "name": "Фитинги для ПП труб",
+       "categories": []
+      },
+      {
+       "category_id": 95761879,
+       "name": "Фитинги для стальных труб",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 12785,
+     "name": "Сантехнический инструмент",
+     "categories": [
+      {
+       "category_id": 95761892,
+       "name": "Ключи трубные",
+       "categories": []
+      },
+      {
+       "category_id": 95761894,
+       "name": "Оборудование для прочистки канализации",
+       "categories": []
+      },
+      {
+       "category_id": 95761896,
+       "name": "Пресс-клещи",
+       "categories": []
+      },
+      {
+       "category_id": 95761897,
+       "name": "Развальцовщики, трубогибы",
+       "categories": []
+      },
+      {
+       "category_id": 95761895,
+       "name": "Сварочные аппараты для труб",
+       "categories": []
+      },
+      {
+       "category_id": 95761891,
+       "name": "Труборезы, ножницы",
+       "categories": []
+      },
+      {
+       "category_id": 95761893,
+       "name": "Фаскосниматели, торцеватели, клуппы",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 7151,
+     "name": "Сантехнический крепеж",
+     "categories": [
+      {
+       "category_id": 172997953,
+       "name": "Сантехнические болты",
+       "categories": []
+      },
+      {
+       "category_id": 95761898,
+       "name": "Кронштейны сантехнические",
+       "categories": []
+      },
+      {
+       "category_id": 95761899,
+       "name": "Наборы для крепления",
+       "categories": []
+      },
+      {
+       "category_id": 95761900,
+       "name": "Хомуты",
+       "categories": []
+      },
+      {
+       "category_id": 95761902,
+       "name": "Шпильки",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 95761904,
+     "name": "Герметизация соединений и уплотнители",
+     "categories": [
+      {
+       "category_id": 95761905,
+       "name": "Сантехнический герметик",
+       "categories": []
+      },
+      {
+       "category_id": 13145,
+       "name": "Уплотнители и прокладки",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 4123,
+     "name": "Ревизионные люки",
+     "categories": [
+      {
+       "category_id": 17258,
+       "name": "Люки ревизионные алюминиевые",
+       "categories": []
+      },
+      {
+       "category_id": 815,
+       "name": "Люки ревизионные стальные",
+       "categories": []
+      },
+      {
+       "category_id": 777,
+       "name": "Люки ревизионные пластиковые",
+       "categories": []
+      },
+      {
+       "category_id": 9576200,
+       "name": "Люки ревизионные под плитку",
+       "categories": []
+      },
+      {
+       "category_id": 9576203,
+       "name": "Люки ревизионные под покраску",
+       "categories": []
+      },
+      {
+       "category_id": 9576202,
+       "name": "Люки ревизионные напольные",
+       "categories": []
+      },
+      {
+       "category_id": 9576204,
+       "name": "Коллекторные шкафы",
+       "categories": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category_id": 1533,
+   "name": "Интерьер и отделка",
+   "categories": [
+    {
+     "category_id": 95761859,
+     "name": "Кухня",
+     "categories": [
+      {
+       "category_id": 8957,
+       "name": "Столешницы и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 95761852,
+       "name": "Фартуки для кухни",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 658423,
+     "name": "Текстиль для дома",
+     "categories": [
+      {
+       "category_id": 95761854,
+       "name": "Постельное белье",
+       "categories": []
+      },
+      {
+       "category_id": 95761856,
+       "name": "Подушки",
+       "categories": []
+      },
+      {
+       "category_id": 95761857,
+       "name": "Одеяла",
+       "categories": []
+      },
+      {
+       "category_id": 95761855,
+       "name": "Шторы и тюль",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1579,
+     "name": "Двери, скобяные изделия",
+     "categories": [
+      {
+       "category_id": 10050,
+       "name": "Двери межкомнатные",
+       "categories": []
+      },
+      {
+       "category_id": 1590,
+       "name": "Дверные коробки, доборы и наличники",
+       "categories": []
+      },
+      {
+       "category_id": 175678984,
+       "name": "Арки межкомнатные",
+       "categories": []
+      },
+      {
+       "category_id": 956439,
+       "name": "Двери для бани и сауны",
+       "categories": []
+      },
+      {
+       "category_id": 17003,
+       "name": "Двери металлические",
+       "categories": []
+      },
+      {
+       "category_id": 245806749,
+       "name": "Козырьки к входным дверям",
+       "categories": []
+      },
+      {
+       "category_id": 1592,
+       "name": "Скобяные изделия",
+       "categories": []
+      },
+      {
+       "category_id": 258316641,
+       "name": "Механизмы для раздвижных дверей",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 10051,
+     "name": "Окна и комплектующие",
+     "categories": [
+      {
+       "category_id": 1580,
+       "name": "Блоки оконные деревянные",
+       "categories": []
+      },
+      {
+       "category_id": 15635,
+       "name": "Готовые пластиковые окна",
+       "categories": []
+      },
+      {
+       "category_id": 220030662,
+       "name": "Комплектующие для окон",
+       "categories": []
+      },
+      {
+       "category_id": 9575999,
+       "name": "Мансардные окна",
+       "categories": []
+      },
+      {
+       "category_id": 213159623,
+       "name": "Москитные сетки и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 245807056,
+       "name": "Откосы",
+       "categories": []
+      },
+      {
+       "category_id": 9576000,
+       "name": "Отливы",
+       "categories": []
+      },
+      {
+       "category_id": 285395796,
+       "name": "Пластиковые балконные двери",
+       "categories": []
+      },
+      {
+       "category_id": 10053,
+       "name": "Подоконники",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 25752633,
+     "name": "Карнизы, шторы и жалюзи",
+     "categories": [
+      {
+       "category_id": 208522262,
+       "name": "Жалюзи и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 25900417,
+       "name": "Карнизы и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 25752234,
+       "name": "Рулонные шторы",
+       "categories": []
+      },
+      {
+       "category_id": 957453,
+       "name": "Шторы и тюль",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 9576208,
+     "name": "Хранение в доме",
+     "categories": [
+      {
+       "category_id": 9575951,
+       "name": "Гардеробные системы",
+       "categories": []
+      },
+      {
+       "category_id": 245807047,
+       "name": "Система Джокер",
+       "categories": []
+      },
+      {
+       "category_id": 9576215,
+       "name": "Двери-купе",
+       "categories": []
+      },
+      {
+       "category_id": 9575981,
+       "name": "Жалюзийные двери",
+       "categories": []
+      },
+      {
+       "category_id": 9576243,
+       "name": "Механизмы для гардеробных дверей",
+       "categories": []
+      },
+      {
+       "category_id": 9576266,
+       "name": "Чехлы для одежды и вешалки",
+       "categories": []
+      },
+      {
+       "category_id": 9576269,
+       "name": "Пластиковые контейнеры для хранения",
+       "categories": []
+      },
+      {
+       "category_id": 9576268,
+       "name": "Корзины, короба декоративные",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1459,
+     "name": "Лакокрасочные материалы",
+     "categories": [
+      {
+       "category_id": 1480,
+       "name": "Антисептики",
+       "categories": []
+      },
+      {
+       "category_id": 6627,
+       "name": "Водно-дисперсионные краски",
+       "categories": []
+      },
+      {
+       "category_id": 9576150,
+       "name": "Готовые шпатлевки",
+       "categories": []
+      },
+      {
+       "category_id": 9576084,
+       "name": "Грунтовочные составы",
+       "categories": []
+      },
+      {
+       "category_id": 6654,
+       "name": "Декоративная штукатурка",
+       "categories": []
+      },
+      {
+       "category_id": 4127,
+       "name": "Колеры",
+       "categories": []
+      },
+      {
+       "category_id": 6636,
+       "name": "Лаки",
+       "categories": []
+      },
+      {
+       "category_id": 186883401,
+       "name": "Масло",
+       "categories": []
+      },
+      {
+       "category_id": 6642,
+       "name": "Масляные краски",
+       "categories": []
+      },
+      {
+       "category_id": 6644,
+       "name": "Растворители и очистители",
+       "categories": []
+      },
+      {
+       "category_id": 6656,
+       "name": "Эмали",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1424,
+     "name": "Пены, клеи, герметики",
+     "categories": [
+      {
+       "category_id": 7196,
+       "name": "Монтажная пена",
+       "categories": []
+      },
+      {
+       "category_id": 7201,
+       "name": "Клей, жидкие гвозди",
+       "categories": []
+      },
+      {
+       "category_id": 12119,
+       "name": "Герметики",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1351,
+     "name": "Керамическая плитка и затирки",
+     "categories": [
+      {
+       "category_id": 1352,
+       "name": "Керамогранит",
+       "categories": []
+      },
+      {
+       "category_id": 10042,
+       "name": "Керамическая плитка",
+       "categories": []
+      },
+      {
+       "category_id": 24418752,
+       "name": "Мозаика",
+       "categories": []
+      },
+      {
+       "category_id": 8550,
+       "name": "Зеркальная плитка",
+       "categories": []
+      },
+      {
+       "category_id": 12116,
+       "name": "Затирки для плитки",
+       "categories": []
+      },
+      {
+       "category_id": 10041,
+       "name": "Расходные материалы для укладки плитки",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1547,
+     "name": "Напольные покрытия",
+     "categories": [
+      {
+       "category_id": 1550,
+       "name": "Ламинат",
+       "categories": []
+      },
+      {
+       "category_id": 1548,
+       "name": "Линолеум и аксессуары",
+       "categories": []
+      },
+      {
+       "category_id": 17265,
+       "name": "Паркетная доска",
+       "categories": []
+      },
+      {
+       "category_id": 126222126,
+       "name": "Плитка ПВХ",
+       "categories": []
+      },
+      {
+       "category_id": 134853078,
+       "name": "Ковролин",
+       "categories": []
+      },
+      {
+       "category_id": 232903691,
+       "name": "Искусственная трава",
+       "categories": []
+      },
+      {
+       "category_id": 201888741,
+       "name": "Коврики придверные",
+       "categories": []
+      },
+      {
+       "category_id": 10546,
+       "name": "Напольные плинтусы",
+       "categories": []
+      },
+      {
+       "category_id": 245807321,
+       "name": "Пороги, обводы",
+       "categories": []
+      },
+      {
+       "category_id": 1549,
+       "name": "Подложка под напольные покрытия",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 12102,
+     "name": "Обои",
+     "categories": [
+      {
+       "category_id": 8595,
+       "name": "Декоративные обои",
+       "categories": []
+      },
+      {
+       "category_id": 1536,
+       "name": "Обои под покраску",
+       "categories": []
+      },
+      {
+       "category_id": 1545,
+       "name": "Стеклообои",
+       "categories": []
+      },
+      {
+       "category_id": 58079661,
+       "name": "Фотообои",
+       "categories": []
+      },
+      {
+       "category_id": 9575958,
+       "name": "Стеклохолст",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 6618,
+     "name": "Панели для отделки стен и комплектующие",
+     "categories": [
+      {
+       "category_id": 12341,
+       "name": "Панели МДФ и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 11776,
+       "name": "Панели пластиковые и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 9576003,
+       "name": "Панели ХДФ и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 100146725,
+       "name": "Декор стен и потолка",
+       "categories": []
+      },
+      {
+       "category_id": 8856,
+       "name": "Пленка самоклеящаяся",
+       "categories": []
+      },
+      {
+       "category_id": 1312,
+       "name": "Уголок пластиковый и металлический, трубки",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 6617,
+     "name": "Потолочные системы",
+     "categories": [
+      {
+       "category_id": 1540,
+       "name": "Подвесной потолок и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 15715,
+       "name": "Растровый потолок Грильято",
+       "categories": []
+      },
+      {
+       "category_id": 1542,
+       "name": "Реечный потолок и комплектующие",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 245807045,
+     "name": "Мебельная фурнитура",
+     "categories": [
+      {
+       "category_id": 244165281,
+       "name": "Заглушки, накладки, кромки",
+       "categories": []
+      },
+      {
+       "category_id": 9575952,
+       "name": "Крючки",
+       "categories": []
+      },
+      {
+       "category_id": 8959,
+       "name": "Мебельные ручки и замки",
+       "categories": []
+      },
+      {
+       "category_id": 240230084,
+       "name": "Мебельный крепеж",
+       "categories": []
+      },
+      {
+       "category_id": 10054,
+       "name": "Опоры, ножки",
+       "categories": []
+      },
+      {
+       "category_id": 1586,
+       "name": "Петли, направляющие, доводчики",
+       "categories": []
+      },
+      {
+       "category_id": 9541,
+       "name": "Средства для ухода за мебелью",
+       "categories": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category_id": 1366,
+   "name": "Сантехника",
+   "categories": [
+    {
+     "category_id": 7173,
+     "name": "Смесители и душевое оборудование",
+     "categories": [
+      {
+       "category_id": 176179318,
+       "name": "Смесители и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 20820,
+       "name": "Душевое оборудование",
+       "categories": []
+      },
+      {
+       "category_id": 7178,
+       "name": "Душевые аксессуары",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 7171,
+     "name": "Раковины, пьедесталы и комплектующие",
+     "categories": [
+      {
+       "category_id": 245811690,
+       "name": "Раковины",
+       "categories": []
+      },
+      {
+       "category_id": 150955850,
+       "name": "Пьедесталы",
+       "categories": []
+      },
+      {
+       "category_id": 110718307,
+       "name": "Комплектующие к раковинам",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 7181,
+     "name": "Сифоны",
+     "categories": []
+    },
+    {
+     "category_id": 4003231,
+     "name": "Ванны и экраны",
+     "categories": [
+      {
+       "category_id": 245811606,
+       "name": "Ванны",
+       "categories": []
+      },
+      {
+       "category_id": 161116298,
+       "name": "Комплектующие для ванн",
+       "categories": []
+      },
+      {
+       "category_id": 8618,
+       "name": "Шторки для ванн",
+       "categories": []
+      },
+      {
+       "category_id": 71009551,
+       "name": "Экраны для ванн",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 4982962,
+     "name": "Душевые кабины и ограждения",
+     "categories": [
+      {
+       "category_id": 245811607,
+       "name": "Душевые кабины и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 150956456,
+       "name": "Душевые ограждения",
+       "categories": []
+      },
+      {
+       "category_id": 7170,
+       "name": "Поддоны и каркасы",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 158759,
+     "name": "Аксессуары для ванной комнаты",
+     "categories": [
+      {
+       "category_id": 9576183,
+       "name": "Аксессуары для общественных мест",
+       "categories": []
+      },
+      {
+       "category_id": 9576182,
+       "name": "Наборы для ванной",
+       "categories": []
+      },
+      {
+       "category_id": 95761821,
+       "name": "Полки для ванной",
+       "categories": []
+      },
+      {
+       "category_id": 95761822,
+       "name": "Крючки, полотенцедержатели",
+       "categories": []
+      },
+      {
+       "category_id": 95761823,
+       "name": "Текстиль для ванной комнаты",
+       "categories": []
+      },
+      {
+       "category_id": 95761824,
+       "name": "Карнизы и шторы для ванны",
+       "categories": []
+      },
+      {
+       "category_id": 95761825,
+       "name": "Поручни для ванны",
+       "categories": []
+      },
+      {
+       "category_id": 95761826,
+       "name": "Мыльницы, дозаторы",
+       "categories": []
+      },
+      {
+       "category_id": 95761827,
+       "name": "Стаканы для зубных щёток",
+       "categories": []
+      },
+      {
+       "category_id": 95761836,
+       "name": "Держатели для аксессуаров",
+       "categories": []
+      },
+      {
+       "category_id": 95761837,
+       "name": "Органайзеры для ванной",
+       "categories": []
+      },
+      {
+       "category_id": 95761828,
+       "name": "Сушилки и корзины для белья",
+       "categories": []
+      },
+      {
+       "category_id": 95761829,
+       "name": "Мусорные вёдра",
+       "categories": []
+      },
+      {
+       "category_id": 95761830,
+       "name": "Держатели для туалетной бумаги",
+       "categories": []
+      },
+      {
+       "category_id": 95761831,
+       "name": "Ёршики для унитазов",
+       "categories": []
+      },
+      {
+       "category_id": 95761832,
+       "name": "Сиденья для унитазов",
+       "categories": []
+      },
+      {
+       "category_id": 95761833,
+       "name": "Туалетная бумага, салфетки",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 7205,
+     "name": "Полотенцесушители и комплектующие",
+     "categories": [
+      {
+       "category_id": 245811797,
+       "name": "Полотенцесушители",
+       "categories": []
+      },
+      {
+       "category_id": 170785332,
+       "name": "Комплектующие к полотенцесушителям",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 13650,
+     "name": "Сушилки для рук",
+     "categories": []
+    },
+    {
+     "category_id": 66444999,
+     "name": "Мебель для ванной комнаты",
+     "categories": [
+      {
+       "category_id": 66437984,
+       "name": "Зеркала для ванной комнаты",
+       "categories": []
+      },
+      {
+       "category_id": 9576271,
+       "name": "Зеркальные шкафы",
+       "categories": []
+      },
+      {
+       "category_id": 66437982,
+       "name": "Мебельные раковины",
+       "categories": []
+      },
+      {
+       "category_id": 66437983,
+       "name": "Пеналы",
+       "categories": []
+      },
+      {
+       "category_id": 9576137,
+       "name": "Столешницы под раковину",
+       "categories": []
+      },
+      {
+       "category_id": 66437981,
+       "name": "Тумбы под раковину",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 7169,
+     "name": "Унитазы и инсталляции",
+     "categories": [
+      {
+       "category_id": 177625593,
+       "name": "Унитазы",
+       "categories": []
+      },
+      {
+       "category_id": 13156,
+       "name": "Комплектующие для унитаза",
+       "categories": []
+      },
+      {
+       "category_id": 7172,
+       "name": "Инсталляции",
+       "categories": []
+      },
+      {
+       "category_id": 178368167,
+       "name": "Комплектующие для инсталляций",
+       "categories": []
+      },
+      {
+       "category_id": 150955805,
+       "name": "Писсуары и биде",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 242749166,
+     "name": "Мойки и смесители для кухни",
+     "categories": [
+      {
+       "category_id": 242748297,
+       "name": "Мойки для кухни и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 7175,
+       "name": "Смесители для кухни",
+       "categories": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category_id": 1336,
+   "name": "Крепеж",
+   "categories": [
+    {
+     "category_id": 9952,
+     "name": "Анкеры",
+     "categories": [
+      {
+       "category_id": 21190,
+       "name": "Анкеры-гильзы распорные",
+       "categories": []
+      },
+      {
+       "category_id": 21225,
+       "name": "Анкеры забивные и инструмент для установки",
+       "categories": []
+      },
+      {
+       "category_id": 21204,
+       "name": "Анкеры клиновые",
+       "categories": []
+      },
+      {
+       "category_id": 21318,
+       "name": "Анкеры потолочные",
+       "categories": []
+      },
+      {
+       "category_id": 21321,
+       "name": "Анкеры распорные с болтом",
+       "categories": []
+      },
+      {
+       "category_id": 21210,
+       "name": "Анкеры распорные с крюком",
+       "categories": []
+      },
+      {
+       "category_id": 21319,
+       "name": "Анкеры распорные со шпилькой",
+       "categories": []
+      },
+      {
+       "category_id": 21220,
+       "name": "Анкеры распорные с петлей (рым-болтом)",
+       "categories": []
+      },
+      {
+       "category_id": 15611,
+       "name": "Анкеры химические и аксессуары для монтажа",
+       "categories": []
+      },
+      {
+       "category_id": 12113,
+       "name": "Анкеры-шурупы для бетона",
+       "categories": []
+      },
+      {
+       "category_id": 12114,
+       "name": "Анкеры-шурупы для крепления стартового бруса и инструмент для установки",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1342,
+     "name": "Гвозди",
+     "categories": []
+    },
+    {
+     "category_id": 9960,
+     "name": "Дюбели и дюбель-гвозди",
+     "categories": [
+      {
+       "category_id": 21283,
+       "name": "Дюбели для легкого бетона",
+       "categories": []
+      },
+      {
+       "category_id": 21197,
+       "name": "Дюбели для листовых материалов",
+       "categories": []
+      },
+      {
+       "category_id": 9962,
+       "name": "Дюбели рамные",
+       "categories": []
+      },
+      {
+       "category_id": 21290,
+       "name": "Дюбели распорные",
+       "categories": []
+      },
+      {
+       "category_id": 21322,
+       "name": "Дюбели складные пружинные",
+       "categories": []
+      },
+      {
+       "category_id": 21320,
+       "name": "Дюбели универсальные",
+       "categories": []
+      },
+      {
+       "category_id": 11226,
+       "name": "Дюбель-гвозди",
+       "categories": []
+      },
+      {
+       "category_id": 21276,
+       "name": "Дюбель-гвозди для монтажного пистолета",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 18269,
+     "name": "Заклепки",
+     "categories": []
+    },
+    {
+     "category_id": 9953,
+     "name": "Крепеж для деревянных конструкций",
+     "categories": [
+      {
+       "category_id": 9956,
+       "name": "Крепежные уголки",
+       "categories": []
+      },
+      {
+       "category_id": 9954,
+       "name": "Монтажные пластины",
+       "categories": []
+      },
+      {
+       "category_id": 21258,
+       "name": "Опоры и держатели",
+       "categories": []
+      },
+      {
+       "category_id": 1340,
+       "name": "Соединительные элементы",
+       "categories": []
+      },
+      {
+       "category_id": 9955,
+       "name": "Хомуты, скобы и ленты",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 18385,
+     "name": "Крепеж для окон",
+     "categories": []
+    },
+    {
+     "category_id": 19150,
+     "name": "Крепеж для фасадных систем",
+     "categories": [
+      {
+       "category_id": 18562828,
+       "name": "Комплектующие для вентилируемых фасадов",
+       "categories": []
+      },
+      {
+       "category_id": 98973885,
+       "name": "Рондоль",
+       "categories": []
+      },
+      {
+       "category_id": 19159,
+       "name": "Тарельчатые дюбели для теплоизоляции",
+       "categories": []
+      },
+      {
+       "category_id": 11975,
+       "name": "Фасадные дюбели",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 18787089,
+     "name": "Кровельный крепеж",
+     "categories": []
+    },
+    {
+     "category_id": 1338,
+     "name": "Метрический крепеж",
+     "categories": [
+      {
+       "category_id": 9957,
+       "name": "Болты",
+       "categories": []
+      },
+      {
+       "category_id": 17214,
+       "name": "Винты",
+       "categories": []
+      },
+      {
+       "category_id": 9958,
+       "name": "Гайки",
+       "categories": []
+      },
+      {
+       "category_id": 9819,
+       "name": "Резьбовые шпильки",
+       "categories": []
+      },
+      {
+       "category_id": 9959,
+       "name": "Шайбы",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 19578,
+     "name": "Настенные кронштейны",
+     "categories": []
+    },
+    {
+     "category_id": 1348,
+     "name": "Саморезы и шурупы",
+     "categories": [
+      {
+       "category_id": 9963,
+       "name": "Саморезы \"клопы\"",
+       "categories": []
+      },
+      {
+       "category_id": 1349,
+       "name": "Саморезы ГД",
+       "categories": []
+      },
+      {
+       "category_id": 9965,
+       "name": "Саморезы ГМ",
+       "categories": []
+      },
+      {
+       "category_id": 9968,
+       "name": "Саморезы для ГВЛ",
+       "categories": []
+      },
+      {
+       "category_id": 57443878,
+       "name": "Саморезы для массивной доски",
+       "categories": []
+      },
+      {
+       "category_id": 18786548,
+       "name": "Саморезы для сэндвич-панелей",
+       "categories": []
+      },
+      {
+       "category_id": 11743,
+       "name": "Саморезы универсальные желтые",
+       "categories": []
+      },
+      {
+       "category_id": 9970,
+       "name": "Саморезы универсальные оцинкованные",
+       "categories": []
+      },
+      {
+       "category_id": 12115,
+       "name": "Саморезы (шурупы) по дереву конструкционные",
+       "categories": []
+      },
+      {
+       "category_id": 13233,
+       "name": "Шурупы - крючки (кольцо, полукольцо, г-образные)",
+       "categories": []
+      },
+      {
+       "category_id": 95761903,
+       "name": "Сантехнические болты",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 21267,
+     "name": "Скрытый крепеж",
+     "categories": []
+    },
+    {
+     "category_id": 21184,
+     "name": "Такелаж",
+     "categories": [
+      {
+       "category_id": 162764795,
+       "name": "Блок для троса",
+       "categories": []
+      },
+      {
+       "category_id": 21233,
+       "name": "Вертлюги",
+       "categories": []
+      },
+      {
+       "category_id": 162764799,
+       "name": "Зажим троса",
+       "categories": []
+      },
+      {
+       "category_id": 9950,
+       "name": "Канаты, шнуры, шпагаты",
+       "categories": []
+      },
+      {
+       "category_id": 162764804,
+       "name": "Коуш",
+       "categories": []
+      },
+      {
+       "category_id": 162764803,
+       "name": "Пожарные карабины",
+       "categories": []
+      },
+      {
+       "category_id": 21364,
+       "name": "Ремни и стропы",
+       "categories": []
+      },
+      {
+       "category_id": 162764824,
+       "name": "Рым-болты",
+       "categories": []
+      },
+      {
+       "category_id": 162764830,
+       "name": "Рым-гайки",
+       "categories": []
+      },
+      {
+       "category_id": 162764814,
+       "name": "Такелажные скобы",
+       "categories": []
+      },
+      {
+       "category_id": 162764816,
+       "name": "Талрепы",
+       "categories": []
+      },
+      {
+       "category_id": 9949,
+       "name": "Тросы и цепи",
+       "categories": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category_id": 13381,
+   "name": "Благоустройство",
+   "categories": [
+    {
+     "category_id": 10543,
+     "name": "Снегоуборочная техника и инвентарь",
+     "categories": [
+      {
+       "category_id": 245628732,
+       "name": "Ледорубы",
+       "categories": []
+      },
+      {
+       "category_id": 114173647,
+       "name": "Противогололедные реагенты",
+       "categories": []
+      },
+      {
+       "category_id": 245628723,
+       "name": "Скреперы",
+       "categories": []
+      },
+      {
+       "category_id": 244169919,
+       "name": "Снеговые лопаты",
+       "categories": []
+      },
+      {
+       "category_id": 244169916,
+       "name": "Снегоуборщики",
+       "categories": []
+      },
+      {
+       "category_id": 94955046,
+       "name": "Щетки и скребки для автомобилей",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 245749705,
+     "name": "Зимние и новогодние товары",
+     "categories": [
+      {
+       "category_id": 245749708,
+       "name": "Гирлянды и электрические украшения",
+       "categories": []
+      },
+      {
+       "category_id": 245749709,
+       "name": "Искусственные ели",
+       "categories": []
+      },
+      {
+       "category_id": 245749711,
+       "name": "Новогодний декор",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 205032788,
+     "name": "Системы хранения",
+     "categories": [
+      {
+       "category_id": 245811883,
+       "name": "Гаражное хранение",
+       "categories": []
+      },
+      {
+       "category_id": 245811882,
+       "name": "Стеллажи металлические",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 9576244,
+     "name": "Ограждения и заборы",
+     "categories": [
+      {
+       "category_id": 9576246,
+       "name": "Ворота и калитки",
+       "categories": []
+      },
+      {
+       "category_id": 9576252,
+       "name": "Столбы для забора и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 9576245,
+       "name": "Колпаки для заборных столбов",
+       "categories": []
+      },
+      {
+       "category_id": 9576250,
+       "name": "Секционные заборы",
+       "categories": []
+      },
+      {
+       "category_id": 9576247,
+       "name": "Евроштакетник",
+       "categories": []
+      },
+      {
+       "category_id": 9576251,
+       "name": "Сетка для забора и проволока",
+       "categories": []
+      },
+      {
+       "category_id": 9576249,
+       "name": "Сваи для забора",
+       "categories": []
+      },
+      {
+       "category_id": 9576248,
+       "name": "Профнастил для забора",
+       "categories": []
+      },
+      {
+       "category_id": 9576253,
+       "name": "Шлагбаум и автоматизация ворот",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1357,
+     "name": "Тротуарная плитка, бордюры, решетки",
+     "categories": [
+      {
+       "category_id": 10049,
+       "name": "Тротуарная плитка",
+       "categories": []
+      },
+      {
+       "category_id": 5826300,
+       "name": "Тротуарный клинкер",
+       "categories": []
+      },
+      {
+       "category_id": 10048,
+       "name": "Бордюры",
+       "categories": []
+      },
+      {
+       "category_id": 95277080,
+       "name": "Газонные решетки",
+       "categories": []
+      },
+      {
+       "category_id": 285395791,
+       "name": "Покрытия резиновые, полимерные, каменный ковер",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 125907489,
+     "name": "Моющая техника и аксессуары",
+     "categories": []
+    },
+    {
+     "category_id": 18944,
+     "name": "Садовая техника и комплектующие",
+     "categories": [
+      {
+       "category_id": 127190847,
+       "name": "Воздуходувки",
+       "categories": []
+      },
+      {
+       "category_id": 11118,
+       "name": "Газонокосилки",
+       "categories": []
+      },
+      {
+       "category_id": 245629026,
+       "name": "Измельчители",
+       "categories": []
+      },
+      {
+       "category_id": 126075033,
+       "name": "Культиваторы",
+       "categories": []
+      },
+      {
+       "category_id": 245629025,
+       "name": "Кусторезы",
+       "categories": []
+      },
+      {
+       "category_id": 18744,
+       "name": "Мотобур и комплектующие",
+       "categories": []
+      },
+      {
+       "category_id": 245629029,
+       "name": "Ножницы для травы",
+       "categories": []
+      },
+      {
+       "category_id": 245629028,
+       "name": "Триммеры",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 126075331,
+     "name": "Обустройство сада",
+     "categories": [
+      {
+       "category_id": 244129939,
+       "name": "Садовая мебель",
+       "categories": []
+      },
+      {
+       "category_id": 126074507,
+       "name": "Биотуалеты и септики",
+       "categories": []
+      },
+      {
+       "category_id": 224415505,
+       "name": "Компостеры",
+       "categories": []
+      },
+      {
+       "category_id": 957521,
+       "name": "Контейнеры и баки для мусора",
+       "categories": []
+      },
+      {
+       "category_id": 956467,
+       "name": "Почтовые ящики",
+       "categories": []
+      },
+      {
+       "category_id": 244169460,
+       "name": "Садовые емкости",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 10539,
+     "name": "Садовый инструмент",
+     "categories": [
+      {
+       "category_id": 226081761,
+       "name": "Вилы",
+       "categories": []
+      },
+      {
+       "category_id": 10540,
+       "name": "Грабли",
+       "categories": []
+      },
+      {
+       "category_id": 226081848,
+       "name": "Корнеудалители",
+       "categories": []
+      },
+      {
+       "category_id": 10541,
+       "name": "Лопаты",
+       "categories": []
+      },
+      {
+       "category_id": 225859549,
+       "name": "Метлы, щетки, совки",
+       "categories": []
+      },
+      {
+       "category_id": 245628721,
+       "name": "Мотыги",
+       "categories": []
+      },
+      {
+       "category_id": 245628725,
+       "name": "Плодосъемники",
+       "categories": []
+      },
+      {
+       "category_id": 225859631,
+       "name": "Посадочные вилки",
+       "categories": []
+      },
+      {
+       "category_id": 245628734,
+       "name": "Рыхлители",
+       "categories": []
+      },
+      {
+       "category_id": 245629027,
+       "name": "Садовые ножи",
+       "categories": []
+      },
+      {
+       "category_id": 55170800,
+       "name": "Садовые ножницы",
+       "categories": []
+      },
+      {
+       "category_id": 225871298,
+       "name": "Садовые пилы",
+       "categories": []
+      },
+      {
+       "category_id": 245628722,
+       "name": "Садовые совки",
+       "categories": []
+      },
+      {
+       "category_id": 245628726,
+       "name": "Сажалки",
+       "categories": []
+      },
+      {
+       "category_id": 245628728,
+       "name": "Секаторы",
+       "categories": []
+      },
+      {
+       "category_id": 245628724,
+       "name": "Сеялки",
+       "categories": []
+      },
+      {
+       "category_id": 245628729,
+       "name": "Сучкорезы",
+       "categories": []
+      },
+      {
+       "category_id": 245628735,
+       "name": "Тяпки",
+       "categories": []
+      },
+      {
+       "category_id": 245628730,
+       "name": "Черенки и рукоятки",
+       "categories": []
+      },
+      {
+       "category_id": 9576151,
+       "name": "Ямобуры",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1412,
+     "name": "Емкости и товары для полива",
+     "categories": [
+      {
+       "category_id": 10537,
+       "name": "Бочки для воды",
+       "categories": []
+      },
+      {
+       "category_id": 10538,
+       "name": "Ведра и лейки",
+       "categories": []
+      },
+      {
+       "category_id": 244129077,
+       "name": "Дождеватели и наконечники",
+       "categories": []
+      },
+      {
+       "category_id": 244129007,
+       "name": "Опрыскиватели",
+       "categories": []
+      },
+      {
+       "category_id": 244169667,
+       "name": "Переходники и соединители",
+       "categories": []
+      },
+      {
+       "category_id": 8580,
+       "name": "Системы полива",
+       "categories": []
+      },
+      {
+       "category_id": 1415,
+       "name": "Шланги",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 1414,
+     "name": "Тачки и комплектующие",
+     "categories": []
+    },
+    {
+     "category_id": 119654625,
+     "name": "Семена и растения",
+     "categories": [
+      {
+       "category_id": 244165220,
+       "name": "Семена газонной травы",
+       "categories": []
+      },
+      {
+       "category_id": 137173572,
+       "name": "Семена овощей и зелени",
+       "categories": []
+      },
+      {
+       "category_id": 9575995,
+       "name": "Семена цветов",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 243915360,
+     "name": "Уход за растениями",
+     "categories": [
+      {
+       "category_id": 244129176,
+       "name": "Кассеты для рассады",
+       "categories": []
+      },
+      {
+       "category_id": 244165221,
+       "name": "Опоры для растений",
+       "categories": []
+      },
+      {
+       "category_id": 126075195,
+       "name": "Почвогрунт и торф",
+       "categories": []
+      },
+      {
+       "category_id": 245629021,
+       "name": "Регуляторы роста",
+       "categories": []
+      },
+      {
+       "category_id": 9575948,
+       "name": "Светильники и лампы для растений",
+       "categories": []
+      },
+      {
+       "category_id": 211521765,
+       "name": "Средства для защиты растений",
+       "categories": []
+      },
+      {
+       "category_id": 11948,
+       "name": "Теплицы и парники",
+       "categories": []
+      },
+      {
+       "category_id": 244165212,
+       "name": "Удобрения",
+       "categories": []
+      },
+      {
+       "category_id": 28282,
+       "name": "Укрывной материал",
+       "categories": []
+      }
+     ]
+    },
+    {
+     "category_id": 14219,
+     "name": "Средства защиты от насекомых, грызунов",
+     "categories": []
+    },
+    {
+     "category_id": 12056,
+     "name": "Товары для отдыха",
+     "categories": [
+      {
+       "category_id": 244129097,
+       "name": "Мангалы и аксессуары",
+       "categories": []
+      },
+      {
+       "category_id": 244129136,
+       "name": "Уголь, дрова и средства для розжига",
+       "categories": []
+      },
+      {
+       "category_id": 8592,
+       "name": "Посуда и принадлежности для пикника",
+       "categories": []
+      },
+      {
+       "category_id": 244165225,
+       "name": "Бассейны и аксессуары",
+       "categories": []
+      },
+      {
+       "category_id": 126074455,
+       "name": "Надувные матрасы",
+       "categories": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
