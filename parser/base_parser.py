@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 class BaseParser(ABC):
 
     @abstractmethod
-    def get_category_site_response(self):
+    def get_category_shop_response(self):
         pass
 
     @abstractmethod
@@ -20,11 +20,11 @@ class BaseParser(ABC):
         pass
 
     @abstractmethod
-    def parse_category_shop_response(self, body):
+    def parse_category_shop_response(self, data):
         pass
 
     @abstractmethod
-    def parse_city_shop_response(self, body):
+    def parse_city_shop_response(self, data):
         pass
 
     @abstractmethod

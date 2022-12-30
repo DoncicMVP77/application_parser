@@ -1,0 +1,27 @@
+{
+  "shops": [{
+    "shop_code": 1,
+    "name": "Petrovich",
+    "shop_logo": "",
+    "categories": [{}],
+    "cities": [{}],
+    "products": [{
+      "code": 123,
+      "product_photo": "",
+      "product_url": "",
+      "created_time": "",
+      "updated_time": "",
+      "categories": {},
+      "cities_code": "msk",
+      "title": "",
+      "images": [],
+      "stores": [{}],
+      "properties" : [{}],
+      "price": {},
+      "amount" : [{}],
+      "flag_is_updated": "",
+      "price_amount_history": [{}]
+      }
+      ]
+  }]
+}
