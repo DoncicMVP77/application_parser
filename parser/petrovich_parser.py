@@ -4,9 +4,14 @@ import time
 from typing import List, Dict
 import asyncio
 import aiohttp
-from aiohttp.client_exceptions import ClientOSError, ClientConnectorError
+from aiohttp.client_exceptions import ClientOSError, ClientConnectorError, ServerDisconnectedError, \
+    ClientHttpProxyError, ClientPayloadError
 from fake_useragent import UserAgent
+
+from task_pool import KeepAliveClientRequest
+from schemas.petrovich_schema import *
 import aiofiles
+from pydantic import ValidationError
 
 from base_parser import BaseParser
 import requests
@@ -61,7 +66,8 @@ class PetrovichParser(BaseParser):
                 'sec-fetch-dest': 'empty',
                 'sec-fetch-mode': 'cors',
                 'sec-fetch-site': 'same-site',
-                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'}
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+                "connection": 'keep-alive'}
         self.url_category_shop_api = 'https://api.petrovich.ru/catalog/v2.3/sections/tree/3?city_code=msk&' \
                                      'client_id=pet_site'
         self.url_city_shop_api = 'https://api.petrovich.ru/geobase/v1.1/cities?city_code=msk&client_id=pet_site'
@@ -69,13 +75,60 @@ class PetrovichParser(BaseParser):
         self.url_list_product_shop_api = 'https://api.petrovich.ru/catalog/v2.3/sections/10169?offset=0&path' \
                                          '=%2Fcatalog%2F10169%2F&city_code=msk&client_id=pet_site'
         self.count = 0
+        self.count_change_to_proxy = 0
 
-    def get_category_shop_response(self) -> json:
+    def get_category_shop_response(self) -> GetCategoryAPIResponseSchema:
         with self.session:
             proxies = {"https": 'http://wYZG4s:GbxfGs@45.10.248.101:8000'}
-            response_category_shop_api = self.session.get(self.url_category_shop_api)
+            response_category_shop_api = self.session.get(self.url_category_shop_api,
+                                                          headers=self.headers)
+
             response_category_shop_api.raise_for_status()
-            return response_category_shop_api.json()
+
+            try:
+                category_shop_api_response_objects = GetCategoryAPIResponseSchema.parse_obj(
+                    response_category_shop_api.json()
+                )
+            except ValidationError as e:
+                print(e.json())
+            else:
+                return category_shop_api_response_objects
+
+    def parse_category_shop_response(self, body: GetCategoryAPIResponseSchema) -> DataCategorySchema:
+        try:
+            categories_shop_objects = parse_obj_as(list[CategorySchema], body.data.categories)
+        except ValidationError as e:
+            print(e.json())
+        else:
+            return DataCategorySchema.parse_obj({"categories": categories_shop_objects})
+
+    def get_city_shop_response(self) -> GetCityAPIResponseSchema:
+        with self.session:
+            response_city_shop_api = self.session.get(self.url_city_shop_api,
+                                                      headers=self.headers)
+
+            response_city_shop_api.raise_for_status()
+            try:
+                city_shop_api_response_objects = GetCityAPIResponseSchema.parse_obj(response_city_shop_api.json())
+            except ValidationError as e:
+                print(e.json())
+            else:
+                return city_shop_api_response_objects
+
+    def parse_city_shop_response(self, body: GetCityAPIResponseSchema) -> DataCitySchema:
+        try:
+            common_cities_shop_objects = parse_obj_as(list[CitySchema], body.data.common_cities)
+        except ValidationError as ex:
+            print(ex.json())
+
+        try:
+            regional_cities_shop_objects = parse_obj_as(list[CitySchema], body.data.regional_cities)
+        except ValidationError as ex:
+            print(ex.json())
+
+        all_cities_shop_objects = common_cities_shop_objects + regional_cities_shop_objects
+        return DataCitySchema.parse_obj({'objects': all_cities_shop_objects})
+
 
     def get_dict_with_category_shop(self) -> dict:
         with open('static/petrovich/petrovich_category.json', "r", encoding="utf-8") as outfile:
@@ -119,47 +172,7 @@ class PetrovichParser(BaseParser):
                 my_list.append(url)
         return my_list
 
-    def parse_category_shop_response(self, data: json):
-        myDict = {
-            'categories': []
-        }
-        list_categories = data['data']
-        list_main_category = self._parse_json_category_site(list_categories)
-        for main_category in list_categories['sections']:
-            main_category_dict = self._parse_json_category_site(main_category)
 
-            for main_subcategory in main_category['sections']:
-                main_subcategory_dict = self._parse_json_category_site(main_subcategory)
-
-                if main_subcategory['sections'] is not None:
-                    for subcategory in main_subcategory['sections']:
-                        subcategory_dict = self._parse_json_category_site(subcategory)
-                        main_subcategory_dict['categories'].append(subcategory_dict)
-
-                main_category_dict['categories'].append(main_subcategory_dict)
-
-            myDict['categories'].append(main_category_dict)
-        return myDict
-
-    def parse_city_shop_response(self, data):
-        list_city = data['data']['commonCities']
-        city_dict = {
-            'objects': []
-        }
-        for city in list_city:
-            object_id = city['code']
-            object_name = city['title']
-            object_url = city['url']
-
-
-            city_dict['objects'].append({
-                'id': object_id,
-                'name': object_name,
-                'url': object_url
-            })
-
-        print(city_dict)
-        return city_dict
 
     def _parse_json_category_site(self, json_category: dict) -> dict:
         category_id = json_category.get('code', None)
@@ -184,57 +197,81 @@ class PetrovichParser(BaseParser):
             response_main_shop_page_text = self.session.get(self.url_main_shop_page)
             return response_main_shop_page_text
 
-    def get_city_shop_response(self):
-        with self.session:
-            response_city_shop_api = self.session.get(self.url_city_shop_api)
-            return response_city_shop_api.json()
+
 
     def write_dict_to_json_file(self, shop_dict, path_file):
         category_json_object = json.dumps(shop_dict, ensure_ascii=False, indent=True)
         with open(path_file, "w", encoding="utf-8") as outfile:
             outfile.write(category_json_object)
 
+
+
+    def change_proxy_ip(self):
+        headers = {
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,"
+                      "application/signed-exchange;v=b3;q=0.9",
+            "Accept-Encoding": "gzip, deflate",
+            "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Cache-Control": "max-age=0",
+            "Connection": "keep-alive",
+            #"Host": "5.183.232.18",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 "
+                          "Safari/537.36 "
+        }
+
+        session = requests.Session()
+        with session.get('http://176.9.113.111:20005/?command=switch&api_key=gNMLTBja2JNqnZWZPcvi&m_key=Y1LXeFCl06&port=20988', headers=headers):
+            print("change ip")
+
     async def get_product_data(self, session, url):
         headers = self.headers
         headers['user-agent'] = self.get_user_agent()
-        proxy = self.get_random_proxy()
+        #proxies = 'http://MTS107:W9ILEI@5.183.232.18:51070'
+        proxies = 'http://MTS16:SeaFOw@5.183.232.18:40016'
         try:
-            async with session.get(url=url, headers=headers, proxy=proxy) as response:
+            async with session.get(url=url, headers=headers, proxy=proxies) as response:
                 response_text = await response.text()
                 self.count += 1
+                self.count_change_to_proxy += 1
+                await asyncio.sleep(3)
+                # if self.count_change_to_proxy > 50:
+                #     self.change_proxy_ip()
+                #     self.count_change_to_proxy = 0
                 print(print(f"[INFO] page {url}, number {self.count}"))
-        except (ClientOSError, ClientConnectorError) as ex:
-            await asyncio.sleep(10 + random.randint(0, 9))
-            async with session.get(url=url, headers=self.headers) as response:
-                response_text = await response.text()
+        except (ClientOSError, ClientConnectorError, ServerDisconnectedError, ClientHttpProxyError, ClientPayloadError) as ex:
             print(ex)
+            #await asyncio.sleep(1 + random.randint(0, 7))
+            await asyncio.sleep(0)
+            # proxies = self.get_random_proxy()
+            # async with session.get(url=url, headers=self.headers, proxy=proxies) as response:
+            #     response_text = await response.text()
+
 
     def get_random_proxy(self):
         return random.choice([
-            'http://wYZG4s:GbxfGs@y45.10.248.101:8000',
-            'http://wYZG4s:GbxfGs@y45.10.251.193:8000',
-            'http://wYZG4s:GbxfGs@y45.10.249.223:8000',
-            'http://wYZG4s:GbxfGs@y45.10.250.15:8000',
+            'http://MTS16:SeaFOw@5.183.232.18:40016',
+            'http://MTS16:SeaFOw@5.183.232.18:41601',
+            'http://wYZG4s:GbxfGs@45.10.249.223:8000'
         ])
 
     def get_user_agent(self):
         return UserAgent(verify_ssl=False).random
 
+    async def bound_fetch(self, semaphore, session, url):
+        async with semaphore:
+            await self.get_product_data(session, url)
+
     async def gather_data(self):
         urls = self.make_urls_list_for_get_products()
-        # urls = [
-        #     "https://petrovich.ru/catalog/v2.3/sections/1557?offset=0&path=%2Fcatalog%2F10169%2F&city_code=spb&client_id=pet_site",
-        #     "https://petrovich.ru/catalog/v2.3/sections/1573?offset=0&path=%2Fcatalog%2F10169%2F&city_code=spb&client_id=pet_site",
-        #
-        # ]
         tasks = []
-        connector = aiohttp.TCPConnector(force_close=True, limit=40)
-        timeout = aiohttp.ClientTimeout(total=600)
+        semaphore = asyncio.Semaphore(100)
+        connector = aiohttp.TCPConnector(limit=50)
+        timeout = aiohttp.ClientTimeout(total=60, sock_read=240)
         dummy_jar = aiohttp.DummyCookieJar()
-        async with aiohttp.ClientSession(connector=connector, cookie_jar=dummy_jar, timeout=timeout, trust_env=True) \
+        async with aiohttp.ClientSession(request_class=KeepAliveClientRequest,connector=connector, timeout=timeout) \
                 as session:
             for url in urls:
-                task = asyncio.create_task(self.get_product_data(session, url))
+                task = asyncio.create_task(self.bound_fetch(semaphore, session, url))
                 tasks.append(task)
             await asyncio.gather(*tasks)
 
@@ -243,12 +280,14 @@ def main():
     petrovich_site = PetrovichParser()
 
     json_category_shop_response = petrovich_site.get_category_shop_response()
-    # dict_category_shop_parse = petrovich_site.parse_category_shop_response(json_category_shop_response)
-    # petrovich_site.write_dict_to_json_file(dict_category_shop_parse, 'static/petrovich_category.json')
+    dict_category_shop_parse = petrovich_site.parse_category_shop_response(json_category_shop_response).dict()
+    petrovich_site.write_dict_to_json_file(dict_category_shop_parse, 'static/petrovich_category_example.json')
 
-    # json_city_shop_response = petrovich_site.get_city_shop_response()
-    # dict_city_shop_parse = petrovich_site.parse_city_shop_response(json_city_shop_response)
-    # petrovich_site.write_dict_to_json_file(dict_city_shop_parse, 'static/petrovich_city.json')
+    json_city_shop_response = petrovich_site.get_city_shop_response()
+    dict_city_shop_parse = petrovich_site.parse_city_shop_response(json_city_shop_response).dict()
+    petrovich_site.write_dict_to_json_file(dict_city_shop_parse, 'static/petrovich_city.json')
+
+
 
     # petrovich_site.make_urls_list_for_get_products()
     # dict_subcategory_shop = petrovich_site.get_list_subcategories()

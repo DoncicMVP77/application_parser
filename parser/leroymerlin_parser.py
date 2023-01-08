@@ -44,10 +44,10 @@ class LeroyMerlinParser(BaseParser):
         self.session.mount('https://', adapter)
         with self.session:
 
-            response_category_shop_api = self.session.get('https://stackoverflow.com/questions/40442568/python-requests-http-response-500-site-can-be-reached-in-browser',
+            response_category_shop_api = self.session.get(self.url_category_shop_api,
                                                           headers=self.headers,
                                                           proxies=proxies)
-            return response_category_shop_api.status_code
+            return response_category_shop_api.text
 
     def get_category_products_list_response(self):
         pass
@@ -58,10 +58,10 @@ class LeroyMerlinParser(BaseParser):
     def get_city_shop_response(self):
         pass
 
-    def parse_category_shop_response(self, data):
+    def parse_category_shop_response(self, body):
         pass
 
-    def parse_city_shop_response(self, data):
+    def parse_city_shop_response(self, body):
         pass
 
     def get_dict_with_category_shop(self) -> dict:
